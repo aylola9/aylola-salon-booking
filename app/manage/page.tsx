@@ -1,0 +1,1 @@
+import {Header,Footer,Banner} from '@/components/site-shell';import Dashboard from './dashboard';export default function Manage(){return <><Header/><Banner eyebrow="Studio workspace" title="Appointments & clients" description="Track upcoming visits and keep helpful notes for returning clients."/><main className="section wrap"><Dashboard/></main><Footer/></>}

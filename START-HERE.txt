@@ -1,0 +1,8 @@
+Aylola Salon Booking source code
+
+Requirements: Node.js 22.13+ and npm.
+Run: npm ci
+Run: npm run dev
+Open the address printed by the development server.
+
+Booking and client records use Cloudflare D1. See README.md for database migration and local preview instructions. The included .openai/hosting.json has no project ID so it cannot overwrite the live project.
